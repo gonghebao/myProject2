@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="echarts3.js"></script>
+	<script src="index.js"></script>
+	<script src="jquery.js"></script>
+</head>
+<body>
+  <div class="d_padding">
+  	<div id="header">
+		<div class="header_1">错误日志监控系统</div>
+		<div class="header_2">
+			<button>注销</button>
+			<button>帮助</button>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="content">
+		<div class="content_d1">
+			<ul class="content_d1_u1">
+				<li class="content_d1_u1_l1">设备监测</li>
+				<li>分析评估</li>
+				<li>设备管理</li>
+				<li>系统配对</li>
+			</ul>
+			<div class="content_d1_d1">
+				<div class="content_time">
+					<span>当前时间:</span>
+					<i id="time"></i>
+				</div>
+				<div class="content_user">
+					<span>欢迎您:</span>
+					<i>kkk</i>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="content_d2">
+			<ul>
+				<li>测试监测</li>
+				<li>运行监测</li>
+				<li>历史数据</li>
+				<li style="color:rgb(249,158,45)">对比分析</li>
+				<li>统计报表</li>
+			</ul>
+		</div>
+		<div id="csjc" class="divs">
+	      <div class="csjc_left">
+	      	<div class="csjc_title">
+	      	  <div>标题xxxx</div>
+	      	  <span>title</span>
+	      	</div>
+	      	<div class="csjc_left_d2">
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">121k</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">421g</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1111:</div>
+	      	    <div class="nt2">11v</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">311b</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容12:</div>
+	      	    <div class="nt2">数量(2111</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容111:</div>
+	      	    <div class="nt2">数量(2111</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">数量111</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">数量111</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">数量111</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">数量111</div>
+	      	  </div>
+	      	  <div class="flex_group">
+	      	    <div class="nt1">内容1:</div>
+	      	    <div class="nt2">数量111</div>
+	      	  </div>	      	 
+	      	</div>
+	      	<div class="csjc_table">
+	      		<table border=1 width="100%" style="border-collapse: collapse">
+	      			<tr><td>内容一</td><td>内容</td></tr>
+	      			<tr><td class="n1">1211211</td><td>数量</td></tr>
+	      			<tr><td>内容</td><td>内容</td></tr>
+	      			<tr><td>数量</td><td>数量</td></tr>
+	      			<tr><td>内容</td><td>内容</td></tr>
+	      			<tr><td>数量</td><td>数量</td></tr>
+	      			<tr><td>内容</td><td>内容</td></tr>
+	      			<tr><td>数量</td><td>数量</td></tr>
+	      	
+	      		</table>
+	      	</div>
+	      	<div class="csjc_data">
+	      		<div class="nt1">数据读取:<span class="csjc_data_span">+1211</span><span class="csjc_data_span2">内容一</span></div>
+	      		<div class="nt2">1211211</div>
+	      	</div>
+	      </div>
+	      <div class="csjc_right">
+	      	<div class="csjc_right_title">
+	      		<div class="nt1">实时信息</div>
+	      		<div class="nt2">info</div>
+	      	</div>
+	      	<div class="csjc_right_ssxx">
+	      		<div class="nt1">
+	      			<div class="nt1"></div>
+	      			<div class="nt2"></div>
+	      			<div class="nt3"></div>
+	      			<div class="nt4"></div>
+	      			<div class="nt5"></div>
+	      			<div class="nt6">6kg</div>
+	      			<div class="nt7">71kg</div>
+	      			<div class="nt8">8gk</div>
+	      			<div class="nt9">911gk</div>
+	      			<div class="nt10">1kg</div>
+	      			<div class="nt11">标题</div>
+	      			<div class="nt12">标题</div>
+	      			<div class="nt13">标题</div>
+	      			<div class="nt14">标题</div>
+	      			<div class="nt15">标题</div>
+	      		</div>
+	      	</div>
+	      	<div class="csjc_right_fxpg">
+	      		<div class="fxpg_left">
+	      			<div class="fxpg_title">
+	      				<div>分析评估</div>
+	      				<span>title</span>
+	      			</div>
+	      			<h5>分布情况:</h5>
+	      			<ul>
+	      				<li><span>1</span>情况一:<i class="nt1" id="fxpg_nt1">4</i>个</li>
+	      				<li><span>2</span>情况二:<i class="nt2" id="fxpg_nt2">4</i>个</li>
+	      				<li><span>3</span>情况三:<i class="nt3" id="fxpg_nt3">4</i>个</li>
+	      				<li><span>4</span>情况四:<i class="nt4" id="fxpg_nt4">4</i>个</li>
+	      				<li><span>5</span>情况五:<i class="nt5" id="fxpg_nt5">4</i>个</li>
+	      			</ul>
+	      		</div>
+	      		<div class="csjc_right_fxpg_nt2">
+	      			<div class="fxpg_title">
+	      				<div>标题</div>
+	      				<span>title</span>
+	      			</div>
+	      			<div id="csjc_cavs">cavs</div>
+	      		</div>
+	      	</div>
+	      	<div class="csjc_right_title">
+	      		<div class="nt1">统计</div>
+	      		<div class="nt2">info</div>
+	      	</div>
+			<div id="csjc_cavs2"></div>
+	      </div> 
+	    </div>
+	    <div id="yxjc" class="divs">
+	      <div>
+	    	<div class="yxjc_div">
+	    	</div>
+	    	<div class="yxjc_div2">
+	    	</div>
+	    	<div class="yxjc_div3">
+	    	</div>
+	    	<div class="yxjc_d1">0</div>
+	    	<div class="yxjc_d2">0</div>
+	    	<div class="yxjc_d3_d">0</div>
+	    	<div id="T"class="yxjc_d3_d yxjc_d4">#T</div>
+	    	<div class="yxjc_d3_d yxjc_d5">0</div>
+	    	<div class="yxjc_d3_d yxjc_d6">0</div>
+	    	<img class="img1"src="img/1.png" alt="">
+	    	<div class="yxjc_d3_d yxjc_d7">0</div>
+	    	<div class="yxjc_d3_d yxjc_d8">0</div>
+	    	<div class="yxjc_d3_d yxjc_d9">0</div>
+	    	<div class="yxjc_d3_d yxjc_d10">0</div>
+	    	<div class="yxjc_d3_d yxjc_d11">0</div>
+	    	<div class="yxjc_d4_d yxjc_d12">0</div>
+	    	<div class="yxjc_d4_d yxjc_d13">0</div>
+	    	<div class="yxjc_d4_d yxjc_d14">0</div>
+	    	<div class="yxjc_d4_d yxjc_d15">0</div>
+	      </div>
+	    </div>
+	    <div class="yxjc_modal">
+	    	<div class="yxjc_modal_div">
+	    	    <div class="yxjc_modal_title">
+	    	      <span class="yxjc_modal_title_span">#T</span>
+	    		  <span id="yxjc_modal_close">x</span>
+	    		</div>
+	    		<div class="yxjc_modal_body">
+	    			<div id="yxjc_modal_cavs"></div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div id="lssj" class="divs">
+	      <div class="lssj_title">
+	      	<div>历史数据查看</div>
+	      	<span>search</span>
+	      </div>
+	      <div class="lssj_select">
+	      	<select id="" class="select">
+	      		<option value="">2012-01-04</option>
+	      		<option value="">2012-01-05</option>
+	      		<option value="">2012-01-06</option>
+	      		<option value="">2012-01-07</option>
+	      	</select>
+	      	<span>至</span>
+	      	<select id="lssj_v2" class="select">
+	      		<option value="">2012-10-04</option>
+	      		<option value="">2012-10-05</option>
+	      		<option value="">2012-10-06</option>
+	      		<option value="">2012-10-07</option>
+	      	</select>
+			<button id="lssj_search"class="btn">查询</button>
+	      </div>
+	      <div class="lssj_table">
+	      	<ul class="u1">
+	      		<li>名称</li>
+	      		<li>型号</li>
+	      		<li>xx</li>
+	      		<li>xx</li>
+	      		<li>xx</li>
+	      	</ul>
+	      	<ul id="ul-item"class="u2">
+	      	  <li>
+	      	    <ul id="ul-item-2">
+		      	  <!-- <li>名称一</li>
+		      	  <li>型号一</li>
+		          <li>yy</li>
+		      	  <li>yy</li>
+		      	  <li>yy</li> -->
+	      	    </ul>
+	      	  </li>
+	      	</ul>
+	      </div>
+	      <div class="lssj_page">
+	      	<div>
+	      	    <button id="lssj_page_btn" class="btn btn-right">确定</button>
+	      	    <input id="lssj_page_input"type="text" placeholder="请输入页数">
+	      	    <span id="lssj_go">下一页</span>
+	      	     <ul id="ul-page">
+	      	    
+	      			<!-- <li>1</li>
+	      			<li>2</li>
+	      			<li>3</li>
+	      			<li>3</li>
+	      			<li>3</li>
+	      			<li>3</li>
+	      			<li>3</li>
+	      			<li>3</li>
+	      			<li>3</li> -->
+
+	      		</ul>
+	      		<span id="lssj_back">上一页</span>
+	      	</div>
+	      	<div class="clear"></div>
+	      </div>
+	    </div>
+		<div id="dbfx" class="divs">
+		  <div class="content_d3">
+		  <div class="content_d3_d1">
+			<div>标题内容</div>
+			<span>title</span>
+		  </div>
+		  </div>
+		  <div class="content_d4">
+			<select name="" class="select s_rili">
+				<option value="">对比</option>
+				<option value="">性能</option>
+				<option value="">错误</option>
+				<option value="">综合</option>
+			</select>
+			<!-- <select name="" class="select">
+				<option value="">开始日期</option>
+				<option value="">2016-9-30</option>
+				<option value="">2016-10-1</option>
+				<option value="">2016-10-2</option>
+				<option value="">2016-10-3</option>
+			</select>
+			<select name="" class="select">
+				<option value="">截止日期</option>
+				<option value="">2016-11-1</option>
+				<option value="">2016-11-2</option>
+				<option value="">2016-11-3</option>
+				<option value="">2016-11-4</option>
+			</select> -->
+			<div id="dbfx_d1" class="dbfx_d1">
+				<input type="text" id="dbfx_ipt" class="dbfx_ipt" placeholder="开始日期">
+				<div id="dbfx_d2" class="dbfx_d2">
+			      <div class="dbfx_rili_title">
+					<!-- <span id="dbfx_black" class="dbfx_black"><</span>
+					<span id="dbfx_riqi">2016年10月</span>
+					<span id="dbfx_go" class="dbfx_go">></span>
+					<ul class="dbfx_week">
+						<li class="dbfx_first">一</li>
+						<li>二</li>
+						<li>三</li>
+						<li>四</li>
+						<li>五</li>
+						<li>六</li>
+						<li>日</li>
+					</ul>
+					<div id="dbfx_main" class="dbfx_main">
+						
+					</div> -->
+			      </div>
+		        </div>
+		    </div>
+		    <div id="dbfx_d1_2" class="dbfx_d1 dbfx_d1_2">
+				<input type="text" id="dbfx_ipt_2" class="dbfx_ipt" placeholder="结束日期">
+				<div id="dbfx_d2_2" class="dbfx_d2">
+			      <div class="dbfx_rili_title">
+					<!-- <span id="dbfx_black_2" class="dbfx_black"><</span>
+					<span id="dbfx_riqi_2">2016年10月</span>
+					<span id="dbfx_go_2" class="dbfx_go">></span>
+					<ul class="dbfx_week">
+						<li class="dbfx_first">一</li>
+						<li>二</li>
+						<li>三</li>
+						<li>四</li>
+						<li>五</li>
+						<li>六</li>
+						<li>日</li>
+					</ul>
+					<div id="dbfx_main_2" class="dbfx_main">
+						
+					</div> -->
+			      </div>
+		        </div>
+		    </div>
+			<button id="btn_1"type="button" class="btn s_btn">分析</button>
+		  </div>
+		  <div class="content_d5">
+		  	<div id="cavs_1"></div>
+		  </div>
+		  <div class="content_d6">
+			<div class="content_d6_d1">
+				<div class="d6_title">
+					<div>标题内容</div>
+					<span>title</span>
+				</div>
+				<div class="d6_select">
+					<select class="select">
+						<option value="">选择比较项</option>
+						<option value="">比较项1</option>
+						<option value="">比较项2</option>
+						<option value="">比较项3</option>
+					</select>
+					<select name="" class="select">
+						<option value="">开始日期</option>
+						<option value="">2016-9-30</option>
+						<option value="">2016-10-1</option>
+						<option value="">2016-10-2</option>
+						<option value="">2016-10-3</option>
+			       </select>
+				   <select name="" class="select">
+						<option value="">截止日期</option>
+						<option value="">2016-11-1</option>
+						<option value="">2016-11-2</option>
+						<option value="">2016-11-3</option>
+						<option value="">2016-11-4</option>
+				   </select>
+			       <button id="btn_2"type="button" class="btn">分析</button>
+				</div>
+				<div class="d6_cavs">
+					<div id="cavs_2">11</div>
+				</div>
+			</div>
+			<div class="content_d6_d2">
+				<div class="d6_title">
+					<div>标题内容</div>
+					<span>title</span>
+				</div>
+				<div class="d6_select">
+					<select class="select">
+						<option value="">选择比较项</option>
+						<option value="">比较项1</option>
+						<option value="">比较项2</option>
+						<option value="">比较项3</option>
+					</select>
+					<select name="" class="select">
+						<option value="">开始日期</option>
+						<option value="">2016-9-30</option>
+						<option value="">2016-10-1</option>
+						<option value="">2016-10-2</option>
+						<option value="">2016-10-3</option>
+			       </select>
+				   <select name="" class="select">
+						<option value="">截止日期</option>
+						<option value="">2016-11-1</option>
+						<option value="">2016-11-2</option>
+						<option value="">2016-11-3</option>
+						<option value="">2016-11-4</option>
+				   </select>
+			       <button id="btn_3"type="button" class="btn">分析</button>
+				</div>
+				<div class="d6_cavs">
+					<div id="cavs_3">11</div>
+				</div>
+			</div>
+		  </div>
+	    </div>
+	    <div id="tjbb" class="divs">
+	    	统计报表
+	    </div>
+	</div>
+	<div class="content_d7">
+			©版权所属 版本v1.1.0
+	</div>
+  </div>	
+</body>
+</html>

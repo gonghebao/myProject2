@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	 *{
+	 	margin:0;
+	 	padding:0;
+	 	font-family: "微软雅黑"
+	 }
+	 body{
+	 	background:rgba(0,0,0,0.3);
+	 	text-align: center;
+	 }
+	 .jk{
+	 	position: absolute;
+	 	top:30%;
+	 	left:45%;
+	 }
+	 .jk h2{
+	 	font-size:50px;
+		text-shadow:2px 2px 2px #fff
+	 }
+	 .jk_form{
+	 	margin-top:20px;
+	 	text-align: left;
+	 }	
+	 .jk_form span{
+	 	color:#fff;
+	 }
+	 .jk_form>div{
+	 	padding:10px 0;
+	 }
+	 .jk_form input{
+	 	margin-left:10px;
+	 }
+	 #login{
+	 	padding:4px 14px;
+	   	border:none;
+	   	background:rgb(93,89,78);
+	   	border-radius: 6px;
+	   	color:#fff;
+	   	outline: none;
+	   	cursor: pointer;
+	 }
+	</style>
+</head>
+<body>
+	<div class="jk">
+		<h2>监控系统</h2>
+		  <form action="" class="jk_form">
+		    <div>
+			  <span>账号:</span><input type="text">
+			</div>
+			<div>	
+			  <span>密码:</span><input type="password"><br>
+			</div>
+			<input id="login"type="button" value="登录">
+		  </form>
+	</div>
+</body>
+<script type="text/javascript">
+	var lo=document.getElementById("login");
+	lo.onclick=function(){
+		window.location.href="index.html";
+	}
+</script>
+</html>
